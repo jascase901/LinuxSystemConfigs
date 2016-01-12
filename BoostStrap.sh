@@ -1,4 +1,4 @@
-#git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 if [ -f $HOME/.vimrc ];
 then 
    echo "File ~/.vimrc exists copying back to $HOME/.vimrc.backup"

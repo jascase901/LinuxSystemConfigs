@@ -1,12 +1,15 @@
 {pkgs,...}:
 
 {
- environment.systemPackages = with pkgs; [
-    firefox
-    git
-    tmux
-    vim
-    wget 
-    zsh
- ];
+  environment.systemPackages = let
+    vimPackages = import ./vim/vimPackages.nix pkgs;
+    globalPackages = with pkgs; [ 
+      firefox
+      git
+      tmux
+    ];
+
+  in
+    vimPackages ++ globalPackages;
 }
+

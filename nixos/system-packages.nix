@@ -7,6 +7,7 @@
       firefox
       git
       tmux
+      meld
     ];
 
   in

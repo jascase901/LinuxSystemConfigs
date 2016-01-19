@@ -16,6 +16,8 @@ in
       # from pkgs.vimPlugins
       { name = "youcompleteme"; }
 
+      { name = "nerdtree"; }
+
       # from our own plugin package set
       { name = "vim-trailing-whitespace"; }
     ];

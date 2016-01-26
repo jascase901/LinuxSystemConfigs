@@ -8,6 +8,9 @@
       git
       tmux
       meld
+      nodePackages.jshint
+      python33Packages.scipy
+      python34Packages.ipython
     ];
 
   in

@@ -18,6 +18,9 @@ in
 
       { name = "nerdtree"; }
 
+      { name = "syntastic"; }
+
+
       # from our own plugin package set
       { name = "vim-trailing-whitespace"; }
     ];

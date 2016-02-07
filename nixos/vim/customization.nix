@@ -20,6 +20,7 @@ in
 
       { name = "syntastic"; }
 
+      {name = "vim-colorschemes";}
 
       # from our own plugin package set
       { name = "vim-trailing-whitespace"; }

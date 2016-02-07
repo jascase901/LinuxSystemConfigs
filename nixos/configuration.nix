@@ -54,7 +54,7 @@
    services.xserver.displayManager.kdm.enable = true;
   # services.xserver.desktopManager.kde4.enable = true;
 
-  services.xserver.desktopManager.xfce.enable = true;
+  services.xserver.desktopManager.gnome3.enable = true;
    
   # Define a user account. Don't forget to set a password with ‘passwd’.
    users.extraUsers.jason = {

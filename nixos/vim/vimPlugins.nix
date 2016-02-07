@@ -14,5 +14,15 @@ in {
     dependencies = [];
   };
 
+  "vim-colorschemes" = buildVimPlugin{
+    name = "vim-colorschemes";
+    src = fetchgit {
+      url = "https://github.com/flazz/vim-colorschemes.git";
+      rev = "28a989b28457e38df620e4c7ab23e224aff70efe";
+      sha256 = "1r9nmlw6ranl5xc3cx0knkmq90rcp6vlmrg2xib35h2dldsch22k";
+    };
+    dependencies = [];
+  };
+
   # more?
 }

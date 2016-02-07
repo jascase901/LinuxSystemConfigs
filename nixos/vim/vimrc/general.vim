@@ -19,6 +19,8 @@ set si
 set wildmenu
 "Debug comment that prints linenum
 map <leader>n :NERDTreeToggle <CR>
+set backspace=indent,eol,start
 
+colorscheme zenburn
 
 
